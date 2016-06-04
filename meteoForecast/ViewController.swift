@@ -70,7 +70,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 extension ViewController {
     
     func getHourlyWeather(result: JSON) {
-        
+
         hourlyWeather = []
         let jsonHourly = result["hourly"]["data"]
         var time: Int?
